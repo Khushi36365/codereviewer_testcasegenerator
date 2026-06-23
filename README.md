@@ -18,9 +18,7 @@ Create a `.env` file:
 GROQ_API_KEY=your_api_key
 ```
 
-### How to start?
-
-In your terminal, run:
+### Start the application
 
 ```bash
 uv run main.py
