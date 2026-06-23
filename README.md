@@ -30,4 +30,4 @@ Choose one of the available input methods:
 2. Read a file
 3. Analyze an entire project folder
 
-Generated outputs are saved inside the `output/` directory.
+Generated outputs will be saved inside the `output/` directory.
