@@ -1,4 +1,4 @@
-# Code Review & Test Case Generator
+# Code Reviewer & Test Case Generator
 
 An AI-powered agent that reviews source code, analyzes logic, and automatically generates test scenarios and pytest test cases using Groq LLMs.
 
@@ -18,7 +18,9 @@ Create a `.env` file:
 GROQ_API_KEY=your_api_key
 ```
 
-### Start the application
+### How to start?
+
+In your terminal, run:
 
 ```bash
 uv run main.py
