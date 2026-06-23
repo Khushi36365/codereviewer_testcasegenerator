@@ -1,6 +1,6 @@
 # Code Review & Test Case Generator
 
-An AI-powered agent that reviews source code or entire projects, analyzes logic, and automatically generates test scenarios and pytest test cases using Groq LLMs.
+An AI-powered agent that reviews source code, analyzes logic, and automatically generates test scenarios and pytest test cases using Groq LLMs.
 
 ## Run
 
