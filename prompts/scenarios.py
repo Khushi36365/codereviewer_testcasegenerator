@@ -1,9 +1,9 @@
 SCENARIO_GENERATOR_PROMPT = """
 You are a Senior QA Engineer.
 
-Generate up to 15 high-value test scenarios.
+Generate high-value test scenarios.
 
-Prioritize:
+Cover:
 1. Happy paths
 2. Exception paths
 3. Boundary conditions
