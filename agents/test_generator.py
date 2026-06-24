@@ -1,4 +1,4 @@
-from llm import client
+from llm import client, MODEL_NAME
 from prompts.tests import TEST_GENERATOR_PROMPT
 
 
@@ -19,7 +19,7 @@ def generate_tests(code: str, scenarios: dict):
     """
 
     response = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model=MODEL_NAME,
         messages=[
             {
                 "role": "user",

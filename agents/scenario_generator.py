@@ -1,6 +1,6 @@
 # agents/scenario_generator.py
 
-from llm import client
+from llm import client, MODEL_NAME
 from prompts.scenarios import SCENARIO_GENERATOR_PROMPT
 from utils.json_parser import extract_json
 
@@ -22,7 +22,7 @@ def generate_scenarios(code: str, analysis: dict):
     """
 
     response = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model=MODEL_NAME,
         messages=[
             {
                 "role": "user",

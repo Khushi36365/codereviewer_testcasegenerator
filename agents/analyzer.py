@@ -1,4 +1,4 @@
-from llm import client
+from llm import client, MODEL_NAME
 from prompts.analyzer import ANALYZER_PROMPT
 from utils.json_parser import extract_json
 
@@ -16,7 +16,7 @@ def analyze_code(code: str):
     """
 
     response = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model=MODEL_NAME,
         messages=[
             {
                 "role": "user",
