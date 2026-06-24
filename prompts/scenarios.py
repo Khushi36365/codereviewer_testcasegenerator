@@ -1,7 +1,7 @@
 SCENARIO_GENERATOR_PROMPT = """
 You are a Senior QA Engineer.
 
-Generate high-value test scenarios.
+Generate upto 20 high-value test scenarios.
 
 If the input represents a project/codebase:
 - Focus on the most important business workflows.
